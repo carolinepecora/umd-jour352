@@ -1,0 +1,40 @@
+
+header{
+    padding: 1.5em;
+    margin: 1em;
+    background-color:#5780CB;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Lora', serif;
+    text-align: center;
+}
+
+#top{
+    padding:1em;
+}
+
+body{
+    font-family: 'Barlow', sans-serif;
+    font-size: 10px;
+
+}
+
+#shop{
+    width: 50%;
+}
+
+section{
+    text-align: center;
+}
+
+#welcome{
+    background-color: #73E4BD;
+    padding: 2em;
+    text-align: left;
+}
+
+footer{
+    padding: .5em;
+}

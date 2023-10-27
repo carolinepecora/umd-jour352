@@ -1,3 +1,25 @@
 a{
   text-decoration: none;
 }
+
+#about-img{
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  display:block;
+}
+
+.image-container {
+  width: 90%; /* Set the desired width */
+  height: 75%; /* Set the desired height */
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  display:block
+}
+
+.clips-align {
+  padding: 70px 0;
+  border: 3px;
+  text-align: center;
+}

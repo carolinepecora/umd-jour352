@@ -1,0 +1,129 @@
+header{
+    min-height: 100vh;
+}
+
+.results-section{
+    min-height:80vh;
+  }
+
+.row{
+  padding-top: 25%;
+  padding-bottom: 25%;
+}
+
+.top-picture {
+  background-color: #121212;
+}
+
+.top{
+    background-color: #121212;
+}
+
+.header{
+  text-align: center;
+  font-family: 'Inconsolata', monospace;
+  color: #FCFDFE;
+}
+
+.intro{
+  text-align: center;
+}
+
+.container {
+    width: 55%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+p{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+h4{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
+}
+
+h1{
+  font-family: 'Inconsolata', monospace;
+  font-weight: 700;
+  font-size: 3.5em;
+  padding-bottom: 5%;
+}
+
+h2{
+  font-family:'Inconsolata', monospace;
+  font-weight: 700;
+  font-size: 1.75em;
+  padding-bottom: 5%;
+}
+
+h3{
+  font-family:'Inconsolata', monospace;
+  font-size: 1.5em;
+}
+
+#subhead{
+  font-family:'Inconsolata', monospace;
+  font-weight: 500;
+  padding-bottom: 5%;
+}
+
+#byline{
+  font-family:'Inconsolata', monospace;
+  font-weight: 300;
+  font-size: 1em;
+  letter-spacing: .7em;
+}
+
+.blockquote{
+  font-family:'Inconsolata', monospace;
+  font-weight: 700;
+  font-size: 1em;
+  color: #DB5461;
+}
+
+footer{
+  font-family:'Inconsolata', monospace;
+  text-align: center;
+  padding: 5%;
+}
+
+a{
+  color: #DB5461;
+  text-decoration: none;
+}
+
+.black-section{
+  background-color: #121212;
+  color: #FCFDFE;
+}
+
+
+@media (max-width: 768px) {
+    .container {
+      width: 75%;
+    }
+
+    h1{
+      font-size: 3em;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    
+    .container {
+      width: 95%;
+    }
+
+    h1{
+      font-size: 2em;
+      font-weight: 800;
+    }
+
+    footer{
+      font-size: .85em;
+    }
+  }
